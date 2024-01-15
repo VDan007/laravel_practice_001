@@ -16,9 +16,9 @@
                 />
                 <div>
                     <h3 class="text-2xl">
-                        <a href="show.html">{{$listing->title}}</a>
+                        <a href="listing/{{$listing->id}}">{{$listing->title}}</a>
                     </h3>
-                    <div class="text-xl font-bold mb-4">Acme Corp</div>
+                    <div class="text-xl font-bold mb-4">{{$listing->company}}</div>
                     <ul class="flex">
                         <li
                             class="flex items-center justify-center bg-black text-white rounded-xl py-1 px-3 mr-2 text-xs"
